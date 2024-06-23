@@ -105,3 +105,8 @@ const books = [
     price: 7.99,
   },
 ];
+
+export function getBookList() 
+{
+    return books
+}
