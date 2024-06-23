@@ -6,6 +6,7 @@ const books = [
     writer: "Harper Lee",
     price: 10.99,
     isFavourite:true,
+    year:2008,
   },
   {
     id: crypto.randomUUID(),
@@ -14,6 +15,7 @@ const books = [
     writer: "George Orwell",
     price: 8.99,
     isFavourite:false,
+    year:2009,
   },
   {
     id: crypto.randomUUID(),
@@ -22,6 +24,7 @@ const books = [
     writer: "Jane Austen",
     price: 9.99,
     isFavourite:false,
+    year:2010,
   },
   {
     id: crypto.randomUUID(),
@@ -30,6 +33,7 @@ const books = [
     writer: "F. Scott Fitzgerald",
     price: 7.99,
     isFavourite:false,
+    year:2012,
   },
   {
     id: crypto.randomUUID(),
@@ -38,6 +42,7 @@ const books = [
     writer: "Herman Melville",
     price: 11.99,
     isFavourite:false,
+    year:2013,
   },
   {
     id: crypto.randomUUID(),
@@ -46,6 +51,7 @@ const books = [
     writer: "Leo Tolstoy",
     price: 12.99,
     isFavourite:false,
+    year:2014,
   },
   {
     id: crypto.randomUUID(),
@@ -54,6 +60,7 @@ const books = [
     writer: "J.D. Salinger",
     price: 10.49,
     isFavourite:false,
+    year:2006
   },
   {
     id: crypto.randomUUID(),
@@ -62,6 +69,7 @@ const books = [
     writer: "Fyodor Dostoevsky",
     price: 9.49,
     isFavourite:false,
+    year:2016
   },
   {
     id: crypto.randomUUID(),
@@ -70,6 +78,7 @@ const books = [
     writer: "J.R.R. Tolkien",
     price: 14.99,
     isFavourite:false,
+    year:2009
   },
   {
     id: crypto.randomUUID(),
@@ -78,6 +87,7 @@ const books = [
     writer: "J.R.R. Tolkien",
     price: 8.49,
     isFavourite:false,
+    year:2019
   },
   {
     id: crypto.randomUUID(),
@@ -86,6 +96,7 @@ const books = [
     writer: "Aldous Huxley",
     price: 7.49,
     isFavourite:false,
+    year:2001
   },
   {
     id: crypto.randomUUID(),
@@ -102,6 +113,7 @@ const books = [
     writer: "Charlotte Brontë",
     price: 9.99,
     isFavourite:false,
+    year:2001
   },
   {
     id: crypto.randomUUID(),
@@ -110,6 +122,7 @@ const books = [
     writer: "Emily Brontë",
     price: 8.99,
     isFavourite:false,
+    year:2008
   },
   {
     id: crypto.randomUUID(),
@@ -118,6 +131,7 @@ const books = [
     writer: "Charles Dickens",
     price: 7.99,
     isFavourite:false,
+    year:2007
   },
 ];
 
