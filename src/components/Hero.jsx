@@ -1,11 +1,11 @@
 import React from "react";
 import Search from "./Search";
 import Sort from "./Sort";
-export default function Hero() {
+export default function Hero({setBookList , bookList}) {
   return (
-    <div class="mx-auto flex items-end justify-between max-md:max-w-[95%] max-md:flex-col max-md:items-start max-md:space-y-4 w-full container">
-      <Search />
-      <Sort />
+    <div className="mx-auto flex items-end  justify-between ustify-between max-md:max-w-[95%] max-md:flex-col max-md:items-start max-md:space-y-4 w-full container">
+      <Search setBookList={setBookList} bookList={bookList} />
+      <Sort setBookList={setBookList}  />
     </div>
   );
 }
