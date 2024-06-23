@@ -5,6 +5,7 @@ const books = [
     bookName: "To Kill a Mockingbird",
     writer: "Harper Lee",
     price: 10.99,
+    isFavourite:true,
   },
   {
     id: crypto.randomUUID(),
@@ -12,6 +13,7 @@ const books = [
     bookName: "1984",
     writer: "George Orwell",
     price: 8.99,
+    isFavourite:false,
   },
   {
     id: crypto.randomUUID(),
@@ -19,6 +21,7 @@ const books = [
     bookName: "Pride and Prejudice",
     writer: "Jane Austen",
     price: 9.99,
+    isFavourite:false,
   },
   {
     id: crypto.randomUUID(),
@@ -26,6 +29,7 @@ const books = [
     bookName: "The Great Gatsby",
     writer: "F. Scott Fitzgerald",
     price: 7.99,
+    isFavourite:false,
   },
   {
     id: crypto.randomUUID(),
@@ -33,6 +37,7 @@ const books = [
     bookName: "Moby Dick",
     writer: "Herman Melville",
     price: 11.99,
+    isFavourite:false,
   },
   {
     id: crypto.randomUUID(),
@@ -40,6 +45,7 @@ const books = [
     bookName: "War and Peace",
     writer: "Leo Tolstoy",
     price: 12.99,
+    isFavourite:false,
   },
   {
     id: crypto.randomUUID(),
@@ -47,6 +53,7 @@ const books = [
     bookName: "The Catcher in the Rye",
     writer: "J.D. Salinger",
     price: 10.49,
+    isFavourite:false,
   },
   {
     id: crypto.randomUUID(),
@@ -54,6 +61,7 @@ const books = [
     bookName: "Crime and Punishment",
     writer: "Fyodor Dostoevsky",
     price: 9.49,
+    isFavourite:false,
   },
   {
     id: crypto.randomUUID(),
@@ -61,6 +69,7 @@ const books = [
     bookName: "The Lord of the Rings",
     writer: "J.R.R. Tolkien",
     price: 14.99,
+    isFavourite:false,
   },
   {
     id: crypto.randomUUID(),
@@ -68,6 +77,7 @@ const books = [
     bookName: "The Hobbit",
     writer: "J.R.R. Tolkien",
     price: 8.49,
+    isFavourite:false,
   },
   {
     id: crypto.randomUUID(),
@@ -75,6 +85,7 @@ const books = [
     bookName: "Brave New World",
     writer: "Aldous Huxley",
     price: 7.49,
+    isFavourite:false,
   },
   {
     id: crypto.randomUUID(),
@@ -82,6 +93,7 @@ const books = [
     bookName: "The Brothers Karamazov",
     writer: "Fyodor Dostoevsky",
     price: 13.49,
+    isFavourite:false,
   },
   {
     id: crypto.randomUUID(),
@@ -89,6 +101,7 @@ const books = [
     bookName: "Jane Eyre",
     writer: "Charlotte Brontë",
     price: 9.99,
+    isFavourite:false,
   },
   {
     id: crypto.randomUUID(),
@@ -96,6 +109,7 @@ const books = [
     bookName: "Wuthering Heights",
     writer: "Emily Brontë",
     price: 8.99,
+    isFavourite:false,
   },
   {
     id: crypto.randomUUID(),
@@ -103,6 +117,7 @@ const books = [
     bookName: "Great Expectations",
     writer: "Charles Dickens",
     price: 7.99,
+    isFavourite:false,
   },
 ];
 

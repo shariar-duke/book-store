@@ -1,7 +1,7 @@
 import React from "react";
 import bookImg from "../assets/book.png"
 import star from "../assets/star.svg"
-export default function Book({bookDetails}) {
+export default function Book({bookDetails , handleFavourite}) {
   return (
     <div >
       <div className="space-y-3">
@@ -44,7 +44,7 @@ export default function Book({bookDetails}) {
               </svg>
               Add to Cart
             </button>
-            <button className="flex min-w-[132px] items-center justify-center gap-1 rounded-md bg-[#1C4336]/[14%] py-1.5 text-[#1C4336] transition-all hover:bg-[#1C4336]/[24%] lg:py-1.5">
+            <button onClick={()=> handleFavourite(bookDetails.id) } className={`flex min-w-[132px] items-center justify-center gap-1 rounded-md bg-[#1C4336]/[14%] py-1.5 text-[#1C4336] transition-all hover:bg-[#1C4336]/[24%] lg:py-1.5 ${bookDetails.isFavourite ? "bg-yellow-600 text-white": ""}`}>
               <svg
                 xmlns="http://www.w3.org/2000/svg"
                 fill="none"
